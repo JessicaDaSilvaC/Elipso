@@ -44,6 +44,7 @@
 :root
 {
     --color-font: #5B5766;
+    margin-left: 10%;
 }
 body
 {
@@ -59,7 +60,6 @@ nav
     color: var(--color-font);
     height: 69.69px;
     width: 641px;
-    padding-left: 10%;
 }
 a:hover
 {
@@ -69,7 +69,9 @@ a:hover
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    border-top: 2px solid rgb(104, 82, 237);
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-image: linear-gradient(to right, #6852ED, #BA43FC) 100% 0 0 0;
 }
 li
 {
@@ -89,3 +91,37 @@ a
     color: var(--color-font);
 }
 /*barre de menu - end*/
+/*Our Prices... - start*/
+h1
+{
+    margin-top: 300px;
+    font-family: "PoppinsB";
+    font-size: 50px;
+    color: #554D89;
+}
+p
+{
+    color: var(--color-font);
+    font-size: 22px;
+    font-family: "NunitoR";
+    width: 420px;
+}
+.free
+{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "PoppinsM";
+    border-radius: 50px;
+    width: 207px;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(to right, #6852ED, #BA43FC);
+}
+.view
+{
+    color: #554D89;
+    font-family: "PoppinsR";
+    font-size: 16px;
+    border: none;
+}
+/*Our Prices... - end*/
