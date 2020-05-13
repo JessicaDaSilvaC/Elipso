@@ -47,6 +47,7 @@ nav
     font-family: "NunitoR";
     font-size: "16px";
     color: #5B5766;
+    margin: 0;
 }
 .menu:hover
 {
@@ -63,6 +64,7 @@ li
 {
     display: flex;
     justify-content: space-around;
+    margin: 0;
 }
 a
 {
