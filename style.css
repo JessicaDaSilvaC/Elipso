@@ -40,12 +40,19 @@
 	font-weight: normal;
 	font-style: normal;
 }
-/*barre de menu - start*/
+header
+{
+    background: no-repeat;
+    background-image: url(pillule.png);
+    background-position: top 100% right -100%;
+    height: 1000px;
+}
 :root
 {
     --color-font: #5B5766;
     margin-left: 10%;
 }
+/*barre de menu - start*/
 body
 {
     margin: 0;
@@ -77,13 +84,11 @@ li
 {
     list-style: none;
     width: 75px;
-    display: flex;
-    text-align: flex-end;
 }
 .barre
 {
     display: flex;
-    justify-content: ;
+    justify-content: flex-end;
 }
 a
 {
