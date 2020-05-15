@@ -111,7 +111,7 @@ p
     font-family: "NunitoR";
     width: 420px;
 }
-.free
+.boutton
 {
     color: #ffffff;
     font-size: 16px;
@@ -130,3 +130,107 @@ p
     border: none;
 }
 /*Our Prices... - end*/
+/*zone abonnement - start*/
+.abonnement
+{
+    display: flex;
+    justify-content: center;
+}
+span
+{
+    box-shadow: 0 0 10px #adadad;
+    width: 360px;
+    height: 616px;
+    border-radius: 2%;
+    margin: 10px;
+}
+.choix
+{
+    display: flex;
+    flex-direction: row;
+}
+.best
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border:none;
+    width: 86px;
+    height: 26px;
+    font-family: "PoppinsB";
+    font-size: 10px;
+    color: #EF7171;
+    background-color: #E1E4ED;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+h2
+{
+    font-family: "PoppinsB";
+    font-size: 20px;
+    color: #554D89;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+hr
+{
+    width: 40px;
+    height: 2px;
+    display: flex;
+    justify-content: flex-start;
+    border: none;
+    background-color: #BA43FC;
+    margin-left: 70px;
+}
+.prix
+{
+    font-family: "PoppinsB";
+    font-size: 50px;
+    color: #554D89;
+    margin-left: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.periode
+{
+    color: #5B5766;
+    margin-top: 0;
+    font-family: "NunitoR";
+    font-size: 16px;
+    margin-left: 70px;
+    margin-bottom: 4em;
+}
+li
+{
+    width: 1000px;
+    margin-bottom: 1em;
+}
+.inclu
+{
+    font-family: "NunitoR";
+    font-size: 18px;
+    color: #716C80;
+    margin-left: 50px;
+}
+.exclu
+{
+    font-family: "NunitoR";
+    font-size: 18px;
+    color: #8D8999;
+    margin-left: 50px;
+}
+.get
+{
+    margin-top: 50px;
+    margin-left: 70px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "PoppinsM";
+    border-radius: 50px;
+    width: 189px;
+    height: 50px;
+    border: none;
+    background-image: linear-gradient(to right, #6852ED, #BA43FC);
+}
+/*zone abonnement - end*/
